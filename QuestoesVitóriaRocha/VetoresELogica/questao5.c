@@ -4,9 +4,6 @@ Dado dois vetores de inteiros, mostre os elementos comuns entre eles.*/
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 void encontrarElementosComuns(int *vetor1, int tamanho1, int *vetor2, int tamanho2) {
     printf("\nElementos em comum entre os vetores:\n");
     for (int i = 0; i < tamanho1; i++) {
